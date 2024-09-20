@@ -1,6 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(255, 204, 229); /* Light pink background */
+  background-color: rgb(255, 204, 229); 
   padding: 20px;
 }
 
@@ -21,7 +21,7 @@ label {
   display: block;
   padding: 10px;
   font-weight: bold;
-  color: rgb(197, 52, 97); /* Dark pink for labels */
+  color: rgb(197, 52, 97); 
 }
 
 input {
@@ -32,20 +32,31 @@ input {
   border: 1px solid gainsboro;
   border-radius: 5px;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(255, 230, 242); /* Light pink input background */
-  color: rgb(197, 52, 97); /* Dark pink text */
+  background-color: rgb(255, 230, 242); 
+  color: rgb(197, 52, 97);
 }
 
 button {
   padding: 10px;
   margin-top: 20px;
   margin-left: 10px;
-  background-color: rgb(255, 179, 204); /* Pink button background */
-  border: 1px solid rgb(255, 153, 187); /* Darker pink border */
+  background-color: rgb(255, 179, 204);
+  border: 1px solid rgb(255, 153, 187); 
   border-radius: 5px;
-  color: white; /* White button text */
+  color: white; 
 }
 
 button:hover {
-  background-color: rgb(255, 153, 187); /* Darker pink on hover */
+  background-color: rgb(255, 153, 187); 
+}
+
+@media (min-width: 768px) {
+  form {
+    max-width: 750px;
+    margin: auto;
+  }
+
+  label, button {
+    width: auto;
+  }
 }
