@@ -35,3 +35,17 @@ input {
   background-color: rgb(255, 230, 242); /* Light pink input background */
   color: rgb(197, 52, 97); /* Dark pink text */
 }
+
+button {
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 10px;
+  background-color: rgb(255, 179, 204); /* Pink button background */
+  border: 1px solid rgb(255, 153, 187); /* Darker pink border */
+  border-radius: 5px;
+  color: white; /* White button text */
+}
+
+button:hover {
+  background-color: rgb(255, 153, 187); /* Darker pink on hover */
+}
